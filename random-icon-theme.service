@@ -1,0 +1,8 @@
+[Unit]
+Description=Random Icon Theme on Boot
+
+[Service]
+ExecStart=/home/yomen/Documents/BashScripts/RandomIconTheme.sh
+
+[Install]
+WantedBy=default.target
